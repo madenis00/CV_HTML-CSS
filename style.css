@@ -7,6 +7,8 @@
 
 body {
   font-family: Arial, sans-serif, 'Trebuchet MS';
+  background-image: url("images/background2.jpg");
+  background-size: cover; 
 }
 
 #bloc_page
@@ -15,14 +17,16 @@ body {
   min-height: 500px;
   margin: auto;
   display: flex;
-  background: url("images/background.jpg");
-  background-size: 1000px;
+  background-image: url("images/background4.jpg");
+  background-size: cover;
+  border-radius: 5px;
+
 }
 
 #deco_left
 {
   flex:0.5;
-  background-color: black;
+  background-color: rgb(56,56,56);
   border-radius: 5px;
 }
 
@@ -30,6 +34,11 @@ body {
 {
   flex: 4;
   padding-left: 10px
+}
+
+#backgroud
+{
+  opacity: 0.4
 }
 
 /* Header */
@@ -85,6 +94,7 @@ h1+p
 h2
 {
   color: maroon;
+  display: flex;
 }
 
 article
