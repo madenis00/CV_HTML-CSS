@@ -2,34 +2,99 @@
     font-family: 'KaushanScript-Regular';
     src: url('fonts/KaushanScript-Regular.otf') format('truetype');
 }
-body
-{
-  background: url("images/background.jpg") fixed repeat;
+
+/* Corps principal */
+
+body {
+  font-family: Arial, sans-serif, 'Trebuchet MS';
 }
+
+#bloc_page
+{
+  width: 1000px;
+  min-height: 500px;
+  margin: auto;
+  display: flex;
+  background: url("images/background.jpg");
+  background-size: 1000px;
+}
+
+#deco_left
+{
+  flex:0.5;
+  background-color: black;
+  border-radius: 5px;
+}
+
+#page_principal
+{
+  flex: 4;
+  padding-left: 10px
+}
+
+/* Header */
+
+header
+{
+  display: flex;
+  height: 130px;
+}
+
+#titre_principal
+{
+  flex: 0.8;
+  margin: auto; /*pour centrer le titre*/
+}
+
+#titre_photo
+{
+  flex: 0.2;
+  text-align: center;
+  margin: auto; /*pour centrer la photo*/
+}
+
+#photo_drdenfer
+{
+  border: 3px black groove;
+  box-shadow: 6px 6px 12px black;
+  height: 100px;
+}
+
 h1
 {
   text-shadow: 1px 1px 1px black;
 }
+
 h1, h2
 {
   font-family: KaushanScript-Regular, sans-serif;
 }
-h1+p
+
+h1, h1+p
 {
   text-align: center;
 }
+
+h1+p
+{
+  font-weight: bold;
+}
+
+/* Section */
+
 h2
 {
   color: maroon;
 }
-.presentation
+
+article
 {
-  border: 1px black solid;
+  display: flex;
+  justify-content: center;
 }
-.drdenfer
+
+article div
 {
-  transform: scale(0.8);
-  border: 3px black groove;
-  box-shadow: 6px 6px 12px black;
-  float: right;
+  flex: 1;
+  margin: 10px;
 }
