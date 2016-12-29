@@ -31,11 +31,6 @@ body {
   padding-left: 10px
 }
 
-#backgroud
-{
-  opacity: 0.4
-}
-
 /* Header */
 
 header
@@ -66,10 +61,6 @@ header
 h1
 {
   text-shadow: 1px 1px 1px black;
-}
-
-h1, h2
-{
   font-family: KaushanScript-Regular, sans-serif;
 }
 
@@ -87,6 +78,7 @@ h1+p
 
 h2
 {
+  font-family: KaushanScript-Regular, sans-serif;
   color: maroon;
   display: flex; /* Aligne l'icone et le texte */
 }
