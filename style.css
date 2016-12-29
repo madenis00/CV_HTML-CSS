@@ -7,20 +7,15 @@
 
 body {
   font-family: Arial, sans-serif, 'Trebuchet MS';
-  background-image: url("images/background2.jpg");
+  background-image: url("images/background4.jpg");
   background-size: cover; 
 }
 
 #bloc_page
 {
-  width: 1000px;
-  min-height: 500px;
   margin: auto;
   display: flex;
-  background-image: url("images/background4.jpg");
-  background-size: cover;
   border-radius: 5px;
-
 }
 
 #deco_left
@@ -46,7 +41,6 @@ body {
 header
 {
   display: flex;
-  height: 130px;
 }
 
 #titre_principal
@@ -94,7 +88,7 @@ h1+p
 h2
 {
   color: maroon;
-  display: flex;
+  display: flex; /* Aligne l'icone et le texte */
 }
 
 article
